@@ -44,8 +44,8 @@ public class SmsCDRMapper extends Mapper<LongWritable, Text, Text, IntWritable> 
 		if (Integer.parseInt(line[1]) == 1) {
 			status.set(line[4]);
 			context.write(status, addOne);
-		}else {// CDR record is not of type SMS so increment the counter
-//		      context.getCounter(CDRCounter.NonSMSCDR).increment(1);
+		}else {// CDR record is not of type SMS so increment the counter // this will stop mapping tasks!
+		      context.getCounter(CDRCounter.NonSMSCDR).increment(1);
 			System.out.println("CDR record " + line[1] +" is not of type SMS.");
 		}
 	}
