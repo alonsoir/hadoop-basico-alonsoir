@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.501" errors="0" skipped="0" tests="3" name="com.aironman.hadoop.SmSCallDetailRecords.SMSCDRMapperReducerTest">
+<testsuite failures="0" time="0.506" errors="0" skipped="0" tests="3" name="com.aironman.hadoop.SmSCallDetailRecords.SMSCDRMapperReducerTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -27,7 +27,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/aironman/Documents/ws-hadoop-basico-jalonso/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6929108766683345881.tmp"/>
+    <property name="classworlds.conf" value="/Users/aironman/Documents/ws-hadoop-basico-jalonso/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7981590575229570447.tmp"/>
     <property name="sun.jnu.encoding" value="MacRoman"/>
     <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -65,7 +65,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.383" classname="com.aironman.hadoop.SmSCallDetailRecords.SMSCDRMapperReducerTest" name="testMapper"/>
+  <testcase time="0.39" classname="com.aironman.hadoop.SmSCallDetailRecords.SMSCDRMapperReducerTest" name="testMapper"/>
   <testcase time="0.041" classname="com.aironman.hadoop.SmSCallDetailRecords.SMSCDRMapperReducerTest" name="testMapperWillFail"/>
-  <testcase time="0.077" classname="com.aironman.hadoop.SmSCallDetailRecords.SMSCDRMapperReducerTest" name="testReducer"/>
+  <testcase time="0.075" classname="com.aironman.hadoop.SmSCallDetailRecords.SMSCDRMapperReducerTest" name="testReducer"/>
 </testsuite>
